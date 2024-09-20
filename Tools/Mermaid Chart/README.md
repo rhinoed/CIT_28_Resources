@@ -72,7 +72,6 @@ erDiagram
 **Notes About the Script:**
 
 > [!NOTE]
-
 > A note about using the script. I have gotten the best results using the remote AI. The locally hosted AI has not worked as well for me. Most likely due to small parameters sizes, of the models on my sytem. I have used `llama3` 7b, `llama3.1` 7b, and `gemma2` 9b. They all give me the wrong type of diagram. On the remote AI side I have used `gemini 1.5 pro` the most, and have gotten good results, on par with the Mermaid Chart AI. I have ran out my free api request credits on OpenAI, and Anthropic and have not been able to test the results on these platforms. But, I would expect similar or better results to the remote AI.
     
 
