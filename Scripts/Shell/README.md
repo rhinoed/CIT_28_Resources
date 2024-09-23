@@ -69,6 +69,10 @@ If you add anything after the `./script_name.sh`, separated by a space, it’ll 
 # If you are in a different directory you can use the following command
 ./generate_ERD.sh /path/to/file_name.txt
 ```
+I have made some changes to this script from the original version. I have removed the hard coded values I had for the models and instead get the desired model from user input. And now allow the user to set the name of the generated output file. This should make the script more flexible and easier for others to use.
+
+> [!IMPORTANT]
+> In order for this script to function `fabric` must be installed on your system. Also if you want to use local AI `ollama` must be installed on your system. See [fabric](https://github.com/danielmiessler/fabric/tree/main), and [ollama](https://ollama.com) for more information on how to install these programs.
 - Ready to give it a try? 
 
     [generate_ERD.sh](generate_ERD.sh)

@@ -1,2 +1,7 @@
 # ollama
-[ollama]()
+Get up and running with large language models (Source: ollama.com)
+[ollama](https://ollama.com)
+
+ollama allows you run and manage large language models on your local machine. There are many models you can choose from, and you can even use your own models. The models are hosted on your local machine, so you don't have to worry about your data being sent to a remote server. You can also use ollama to run models on remote servers, such as AWS, GCP, or Azure. ollama is a great tool for running large language models on your local machine, and it's easy to use. (AI generated content)
+
+There are a few ways you can interact with the models using ollama. You can use the command line interface (CLI) to interact with the models, or you can use the ollama API to interact with the models programmatically. The CLI is easy to use and allows you to quickly run models and get results. The API is more flexible and allows you to integrate the models into your own applications. You can use the API to run models on your local machine or on remote servers. There are even GUI's available web interface, one being [open-webui](https://github.com/open-webui/open-webui) that you can use to interact with the models. (AI generated content) 
