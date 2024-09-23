@@ -1,5 +1,5 @@
 # CIT_28_Resources
-A collection of Resources for the CIT 28 class
+A collection of Resources for the [CIT 28 class](https://discord.com/channels/687299711308529711/1269721925618241586)
 
 ## Table of Contents
 - [CS50 SQL Resources](CS50-SQL)
