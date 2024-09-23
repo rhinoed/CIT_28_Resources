@@ -10,3 +10,8 @@ A collection of Resources for the CIT 28 class
     - [Warp](Tools/Warp/README.md)
 - [Scripts](Scripts)
     - [Shell](Scripts/Shell/README.md)
+- [ERD's](ERD\'s)
+    - [schema files](ERD\'s/schema)
+    - [moneyball](ERD\'s/moneyball_ERD.md)
+    - [dese](ERD\'s/dese_ERD.md)
+    - [packages](ERD\'s/packages_ERD.md)
