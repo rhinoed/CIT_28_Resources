@@ -10,6 +10,10 @@ I use Mermaid Chart to create ER diagrams for the databases. We work with in the
 
 **Example of a Mermaid Chart Diagram:**
 
+<details open>
+
+<summary>hide / show diagram</summary>
+
 ```mermaid
 erDiagram
     DISTRICTS ||--o{ SCHOOLS : "contains"
@@ -60,6 +64,7 @@ erDiagram
         numeric unsatisfactory
     }
 ```
+</details>
 
 ## Creating an ERD
 
