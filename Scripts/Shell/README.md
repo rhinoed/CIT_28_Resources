@@ -98,8 +98,11 @@ This script is the same as `dbml_convert.sh` but it is intended to be used with 
 1. Open the Automator app on your Mac.
 2. Select `Folder Action` and click `Choose`.
 3. In the Actions search bar, type `Run Shell Script` and drag it to the right side of the window.
+![Folder Action Run Shell Script](/Scripts/Resources/Images/action_search.png)
 4. From the `Service receives selected` dropdown, select `Other` then select the folder you want to run the action.
+![Folder Action](/Scripts/Resources/Images/action_folder.png)
 5. In the `Pass input` dropdown, select `as arguments`.
+![Folder Action Input](/Scripts/Resources/Images/action_input.png)
 6. In the shell dropdown, select `/bin/bash`.
 7. Copy the contents of `dbml_convert_folder_action.sh` and paste it into the `Run Shell Script` window.
 > [!IMPORTANT]
@@ -115,7 +118,10 @@ If you ever want to add the same action to another folder, you can right-click o
 
 1. Select `Services` from the context menu.
 2. Select `Folder Action Setup...`.
+![Folder Action Context Menu](/Scripts/Resources/Images/folder_action.png)
 3. On the `Confirm Service` dialog box that appears, select `Run Service`.
+![Folder Action Confirm Service](/Scripts/Resources/Images/run_service.png)
 4. From the `Choose Script to Attach` dialog box, select the folder action you created.
+![Folder Action Choose Script](/Scripts/Resources/Images/action_attach.png)
 
 
