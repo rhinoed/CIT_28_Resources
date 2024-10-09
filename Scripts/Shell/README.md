@@ -5,9 +5,9 @@
 
 [Using generate_ERD.sh](#using-generate_erdsh)
 
-[Using dbml_convert.sh](#using-dbml_convertsh)
+[Using convert_to_dbml.sh](#using-convert_to_dbmlsh)
 
-[Using dbml_convert_folder_action.sh](#using-dbml_convert_folder_actionsh)
+[Using convert_to_dbml_folder_action.sh](#using-convert_to_dbml_folder_actionsh)
 
 ## Introduction
 Shell scripts are a powerful tool for automating tasks that would otherwise require manual input into the command line. Among the various shells available, bash, zsh, and fish are the most commonly used. On Unix-like operating systems, such as Linux and macOS, bash is installed by default. On macOS, the default shell is zsh, which is quite similar to bash.
@@ -91,16 +91,16 @@ I have added two `--pattern`,`-p` for use with fabric called `create_erd` and `c
 
     [generate_ERD.sh](generate_ERD.sh)
 
-## Using dbml_convert.sh
+## Using convert_to_dbml.sh
 
 This script will use `fabric` to convert a `sql` schema to a `dbml` schema. This script is very simple to use. You just need to provide the path to the `sql` schema file you want to convert. Here’s how you can run the script:
 ```bash
-./dbml_convert.sh path_to_sql_schema_file
+./convert_to_dbml.sh path_to_sql_schema_file
 ```
 > [!IMPORTANT]
-> Remember `fabric` must be installed on your system for this script, and `dbml_convert_folder_action.sh` to work. See [fabric](/Tools/fabric/)
-## Using dbml_convert_folder_action.sh
-This script is the same as `dbml_convert.sh` but it is intended to be used with the `Folder Action` feature on macOS. This script will convert any `sql` schema file that is added to the folder it is attached to. To use this script you need to attach it to a folder. Here’s a breakdown of how to do that:
+> Remember `fabric` must be installed on your system for this script, and `convert_to_dbml_folder_action.sh` to work. See [fabric](/Tools/fabric/)
+## Using convert_to_dbml_folder_action.sh
+This script is the same as `convert_to_dbml.sh` but it is intended to be used with the `Folder Action` feature on macOS. This script will convert any `sql` schema file that is added to the folder it is attached to. To use this script you need to attach it to a folder. Here’s a breakdown of how to do that:
 
 1. Open the Automator app on your Mac.
 2. Select `Folder Action` and click `Choose`.
@@ -111,7 +111,7 @@ This script is the same as `dbml_convert.sh` but it is intended to be used with 
 5. In the `Pass input` dropdown, select `as arguments`.
 ![Folder Action Input](/Scripts/Resources/Images/action_input.png)
 6. In the shell dropdown, select `/bin/bash`.
-7. Copy the contents of `dbml_convert_folder_action.sh` and paste it into the `Run Shell Script` window.
+7. Copy the contents of `convert_to_dbml_folder_action.sh` and paste it into the `Run Shell Script` window.
 > [!IMPORTANT]
 > Make sure to change the path to `fabric` within the script. I attempted to use a variable, but it did not work with the `Folder Action` feature.
 > ```bash
