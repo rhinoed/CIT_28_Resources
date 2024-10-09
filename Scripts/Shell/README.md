@@ -1,7 +1,13 @@
 # Shell Scripts
+
+## Jump to:
 [Preparing to run a shell script](#preparing-to-running-a-script)
 
 [Using generate_ERD.sh](#using-generate_erdsh)
+
+[Using dbml_convert.sh](#using-dbml_convertsh)
+
+[Using dbml_convert_folder_action.sh](#using-dbml_convert_folder_actionsh)
 
 ## Introduction
 Shell scripts are a powerful tool for automating tasks that would otherwise require manual input into the command line. Among the various shells available, bash, zsh, and fish are the most commonly used. On Unix-like operating systems, such as Linux and macOS, bash is installed by default. On macOS, the default shell is zsh, which is quite similar to bash.
