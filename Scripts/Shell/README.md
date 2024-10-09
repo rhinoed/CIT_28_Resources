@@ -132,3 +132,5 @@ If you ever want to add the same action to another folder, you can right-click o
 ![Folder Action Choose Script](/Scripts/Resources/Images/action_attach.png)
 
 
+>[!NOTE]
+> For both `convert_to_dbml.sh` and `convert_to_dbml_folder_action.sh` if the outputed file is not what you expected you can try tweaking the `prompt` variable in the script. Or if you want you can create your own pattern for `fabric` to use. See [fabric GitHub page](https://github.com/danielmiessler/fabric/tree/main) for more information on how to create your own patterns.

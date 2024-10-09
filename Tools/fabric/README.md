@@ -11,7 +11,7 @@ The details of how to install and use fabric can be found on the [fabric GitHub 
 
 **Using fabric**
 
-For more detailed information about how to use fabric, please refer to the [fabric GitHub page](). The page has a lot of information about how to use fabric. But here is a quick example of how to use fabric:
+For more detailed information about how to use fabric, please refer to the [fabric GitHub page](https://github.com/danielmiessler/fabric/tree/main). The page has a lot of information about how to use fabric. But here is a quick example of how to use fabric:
 
 ```bash
 # This is a simple example of using fabric with the default AI model
