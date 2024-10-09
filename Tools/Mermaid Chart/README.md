@@ -72,6 +72,9 @@ erDiagram
 - After opening a database using the `sqlite3` command, I use the `.output` command to send the output to a file.
 - I then use the `.schema` command to get the schema of the database.
 - Once I have the file with the schema, I copy the contents of the file and paste it into the [Mermaid Chart AI diagram tool](https://www.mermaidchart.com/app/login?redirect=%2Fapp%2Fprojects%2Fe8e8ec0a-78b2-4849-b018-1b2f44813a5b%2Fdiagrams%2F569bd01c-570d-4b1e-a53b-bdb9f9604716%2Fversion%2Fv0.1%2Fai). This tool, once you have an account, will automatically generate a diagram, and save it to your dashboard, based on the schema you provide. The free account limits you to 5 diagrams, but you can delete old diagrams to make room for new ones.
+> [!NOTE]
+> I just recently found out that the Mermaid AI is only available to paid users. You will get a limited time to use it for free, but after that you must upgrade to continue to use it.
+
 - I also have used another method by running a `bash` [script]() I created that creates an ERD using a supplied schema file. The script uses [fabric](https://github.com/danielmiessler/fabric) and [ollama](https://ollama.com), to create the ERD, either on locally hosted or remote AI.
 
 
