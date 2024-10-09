@@ -97,7 +97,8 @@ This script will use `fabric` to convert a `sql` schema to a `dbml` schema. This
 ```bash
 ./dbml_convert.sh path_to_sql_schema_file
 ```
-
+> [!IMPORTANT]
+> Remember `fabric` must be installed on your system for this script, and `dbml_convert_folder_action.sh` to work. See [fabric](/Tools/fabric/)
 ## Using dbml_convert_folder_action.sh
 This script is the same as `dbml_convert.sh` but it is intended to be used with the `Folder Action` feature on macOS. This script will convert any `sql` schema file that is added to the folder it is attached to. To use this script you need to attach it to a folder. Here’s a breakdown of how to do that:
 
