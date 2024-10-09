@@ -100,13 +100,14 @@ This script is the same as `dbml_convert.sh` but it is intended to be used with 
 3. In the Actions search bar, type `Run Shell Script` and drag it to the right side of the window.
 4. From the `Service receives selected` dropdown, select `Other` then select the folder you want to run the action.
 5. In the `Pass input` dropdown, select `as arguments`.
-6. Copy the contents of `dbml_convert_folder_action.sh` and paste it into the `Run Shell Script` window.
+6. In the shell dropdown, select `/bin/bash`.
+7. Copy the contents of `dbml_convert_folder_action.sh` and paste it into the `Run Shell Script` window.
 > [!IMPORTANT]
 > Make sure to change the path to `fabric` within the script. I attempted to use a variable, but it did not work with the `Folder Action` feature.
 > ```bash
 > echo -e "$prompt\n$(/bin/cat "$schema_path")" | /replace/with/path/to/fabric --output "$output_path/$file_name_no_ext.dbml"
 > ```
-7. Save the script and give it a name.
+8. Save the script and give it a name.
 
 Now, whenever you add a file to the folder you attached the script to, it will automatically convert the `sql` schema file to a `dbml` schema file. And output the file using the same name as the input file but with a `.dbml` extension, to a DBML folder in the same directory as the input file.
 
