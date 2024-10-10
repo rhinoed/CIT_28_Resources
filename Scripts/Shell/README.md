@@ -50,7 +50,7 @@ chmod g+x script_name.sh
 ```
 **Octal Notation**
 
-<details>
+<details open>
 <summary>Setting permissions with octal notation</summary>
 
 You can also use the octal notation to set the permissions:
