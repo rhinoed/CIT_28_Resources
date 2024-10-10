@@ -62,6 +62,7 @@ chmod 700 script_name.sh
 # This will give only the group permission to execute the script, It will also remove read and write permissions from other, and give read, write, and execute permissions to the group
 chmod 770 script_name.sh
 ```
+
 > [!NOTE]
 > You can think of each`-` as a bit in an octal (base 8) number. An octal number can be 0-7. Each of the permission strings (group of three) represents an octal number. Going right to left, on each group the first `-` is the 1's place, the second `-` is the 2's place, the third `-` is the 4's place. If you see anything other than a `-` in the place, you add the value of the place to the total. So, if you see a `r` in the 4's place, you would add 4 to the total. If you see a `w` in the 2's place, you would add 2 to the total. If you see a `x` in the 1's place, you would add 1 to the total. If you see a `-` in the place, you would add 0 to the total. Then just repeat this process for the `group` and `other` permissions.
 
