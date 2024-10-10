@@ -50,9 +50,6 @@ chmod g+x script_name.sh
 ```
 **Octal Notation**
 
-<details open>
-<summary>Setting permissions with octal notation</summary>
-
 You can also use the octal notation to set the permissions:
 ```bash
 # This will give everyone permission to execute the script
@@ -65,8 +62,6 @@ chmod 770 script_name.sh
 
 > [!NOTE]
 > You can think of each`-` as a bit in an octal (base 8) number. An octal number can be 0-7. Each of the permission strings (group of three) represents an octal number. Going right to left, on each group the first `-` is the 1's place, the second `-` is the 2's place, the third `-` is the 4's place. If you see anything other than a `-` in the place, you add the value of the place to the total. So, if you see a `r` in the 4's place, you would add 4 to the total. If you see a `w` in the 2's place, you would add 2 to the total. If you see a `x` in the 1's place, you would add 1 to the total. If you see a `-` in the place, you would add 0 to the total. Then just repeat this process for the `group` and `other` permissions.
-
-</details>
 
 ## Using `generate_ERD.sh`
 
