@@ -1,3 +1,5 @@
+# Moneyball ERD
+
 ```mermaid
 erDiagram
     PLAYERS {

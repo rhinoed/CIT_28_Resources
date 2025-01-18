@@ -4,7 +4,7 @@ title: CIT 28 Resources
 description: A site with resources related to CIT 28
 show_downloads: true
 
-remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 

@@ -1,3 +1,5 @@
+# Packages ERD
+
 ```mermaid
 erDiagram
     DRIVERS ||--o{ SCANS : "makes"
